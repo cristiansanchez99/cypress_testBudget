@@ -9,7 +9,6 @@
   "author": "Bushra Alam",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^7.3.0",
-    "mocha-junit-reporter": "^2.0.0"
+    "cypress": "^7.3.0"
   }
 }
