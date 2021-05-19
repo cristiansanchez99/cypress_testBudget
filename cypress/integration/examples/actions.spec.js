@@ -44,8 +44,8 @@ context('Actions', () => {
     // https://on.cypress.io/blur
     cy.get('.action-blur').type('About to blur').blur()
       .should('have.class', 'error')
-      //.prev().should('have.attr', 'style', 'color: red;') // should pass
-      .prev().should('have.attr', 'style', 'color: blue;') // should fail
+      .prev().should('have.attr', 'style', 'color: red;') // should pass
+      //.prev().should('have.attr', 'style', 'color: blue;') // should fail
   })
 
 })
